@@ -1,0 +1,24 @@
+body {
+  background: url(../../assets/images/blackbg.png);
+  background-color: $grey-a;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.maincontainer{
+  .logo{
+    font-family: 'Trade Winds';
+    background: linear-gradient(43.68deg, #C1FF4E 6.76%, #80E4FF 22.19%, #f083ff 91.2%), #F55905;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+
+  }
+  p{
+    font-family: 'Inter';
+  }
+}
+

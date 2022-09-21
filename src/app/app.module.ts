@@ -17,6 +17,7 @@ import { ChangepasswordComponent } from './components/modals/changepassword/chan
 import { EditprofileComponent } from './components/modals/editprofile/editprofile.component';
 import { OtpComponent } from './components/modals/otp/otp.component';
 import { PostviewComponent } from './components/modals/postview/postview.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { PostviewComponent } from './components/modals/postview/postview.compone
     PostviewComponent,
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
