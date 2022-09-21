@@ -10,7 +10,7 @@ $sides: (top, bottom, left, right, all);
       .m#{$space} {
         margin: #{$space}px;
       }
-    
+     
       .p#{$space} {
         padding: #{$space}px;
       }
@@ -37,19 +37,14 @@ $sides: (top, bottom, left, right, all);
   }
 }
 
-// $opacity: (0.8, 0.9, 1);
 
-// @each $ops in $opacity {
-//   .op-#{$ops} {
-//     opacity: $ops;
-//   }
-// }
 
 
 
 
 
 /********* width & height ***********/
-
-
+.op-8{
+  opacity: 0.8;
+}
 
